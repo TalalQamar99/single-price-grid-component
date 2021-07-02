@@ -1,0 +1,63 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(217, 82%, 74%) ;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+.main-div{
+    width: 650px;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "top-box top-box"
+    "bottom-left bottom-right";
+    box-shadow: -10px 10px 8px #888888,10px 10px 8px #888888;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.top-box{
+    width:650px;
+    height: 225px;
+    background-color: rgb(252, 244, 244);
+    grid-area: top-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.bottom-left{
+    width:325px;
+    height: 225px;
+    background-color: hsl(179, 77%, 26%);
+    grid-area:bottom-left;
+    border-bottom-left-radius: 8px;
+}
+.bottom-right{
+    width:325px;
+    height: 225px;
+    background-color: hsl(179, 62%, 43%);
+    grid-area:bottom-right;
+    border-bottom-right-radius: 8px;
+}
+h1{
+    font-family: "Karla";
+    font-weight: 700;
+    margin-left: 30px;
+    color:hsl(179, 62%, 43%) ;
+}
+h2{
+    font-family: "Karla";
+    margin-left: 30px;
+    color:hsl(71, 73%, 54%);
+}
+.p1{
+    margin-left: 30px;
+    color:hsl(218, 22%, 67%);
+    font-family: "Karla";
+}

@@ -104,3 +104,10 @@ button{
 button:hover{
     background-color: #b5db09;
 }
+.p2-2-3{
+    margin-left: 30px;
+    color:hsl(202, 57%, 91%);
+    font-family: "Karla";
+    font-size: 14px;
+    margin-top:12px;
+}

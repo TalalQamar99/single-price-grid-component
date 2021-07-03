@@ -34,24 +34,25 @@ body{
 .bottom-left{
     width:325px;
     height: 225px;
-    background-color: hsl(179, 77%, 26%);
+    background-color: #2bb3b1;
     grid-area:bottom-left;
     border-bottom-left-radius: 8px;
 }
+
 .bottom-right{
     width:325px;
     height: 225px;
-    background-color: hsl(179, 62%, 43%);
+    background-color: #4abebd;
     grid-area:bottom-right;
     border-bottom-right-radius: 8px;
 }
-h1{
+.h1-top{
     font-family: "Karla";
     font-weight: 700;
     margin-left: 30px;
     color:hsl(179, 62%, 43%) ;
 }
-h2{
+.h2-top{
     font-family: "Karla";
     margin-left: 30px;
     color:hsl(71, 73%, 54%);
@@ -60,4 +61,46 @@ h2{
     margin-left: 30px;
     color:hsl(218, 22%, 67%);
     font-family: "Karla";
+}
+.h2-left{
+    font-family: "Karla";
+    color:white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.h1-left{
+    font-family: "Karla";
+    color:white;
+    margin-left: 30px;
+}
+.p2{
+    margin-left: 30px;
+    color:hsl(204, 43%, 93%);
+    font-family: "Karla";
+}
+.p2-2{
+    margin-left: 30px;
+    color:hsl(204, 43%, 93%);
+    font-family: "Karla";
+    margin-top:-15px;
+}
+table{
+    margin-top:-30px;
+}
+button{
+    margin-left: 30px;
+    margin-top:5px;
+    width:230px;
+    height: 40px;
+    box-shadow:3px 3px 3px hsl(0, 0%, 26%);
+    background-color: #bfdf32;
+    border-style: hidden;
+    border-radius: 7px;
+    color:white;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size:17px;
+}
+button:hover{
+    background-color: #b5db09;
 }
